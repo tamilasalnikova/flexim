@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    </head>
+    
+    <body>
+        <p class="P">epflpfksepfkgk</p>
+        <div class="first">
+        <img src="2.jpg" alt="" class="photos">
+        <img src="6.jpg" alt="" class="photos">
+        <img src="7.jpg" alt="" class="photos">
+        <img src="8.jpg" alt="" class="photos">
+        <img src="12.jpg" alt="" class="photos">
+        </div> <hr>
+        <div class="second">
+        <img src="2.jpg" alt="" class="photos">
+        <img src="6.jpg" alt="" class="photos">
+        <img src="7.jpg" alt="" class="photos">
+        <img src="8.jpg" alt="" class="photos">
+        <img src="12.jpg" alt="" class="photos">
+        </div> <hr>
+        <div class="third">
+        <img src="2.jpg" alt="" class="photos">
+        <img src="6.jpg" alt="" class="photos">
+        <img src="7.jpg" alt="" class="photos">
+        <img src="8.jpg" alt="" class="photos">
+        <img src="12.jpg" alt="" class="photos">
+        </div> <hr>
+        <div class="fourth">
+        <img src="2.jpg" alt="" class="photos">
+        <img src="6.jpg" alt="" class="photos">
+        <img src="7.jpg" alt="" class="photos">
+        <img src="8.jpg" alt="" class="photos">
+        <img src="12.jpg" alt="" class="photos">
+        </div> <hr>
+        <div class="fifth">
+        <img src="2.jpg" alt="" class="photos">
+        <img src="6.jpg" alt="" class="photos">
+        <img src="7.jpg" alt="" class="photos">
+        <img src="8.jpg" alt="" class="photos">
+        <img src="12.jpg" alt="" class="photos">
+        </div> <hr>
+        <div class="sixth">
+        <img src="2.jpg" alt="" class="photos">
+        <img src="6.jpg" alt="" class="photos">
+        <img src="7.jpg" alt="" class="photos">
+        <img src="8.jpg" alt="" class="photos">
+        <img src="12.jpg" alt="" class="photos">
+        </div> <hr>
+        <style>
+        .second img,
+        .third img,
+        .fourth img,
+        .fifth img, 
+        .sixth img {
+        width: 10%;
+        }
+        .photos {
+        width: calc(20% - 10px);
+        height: calc(20% - 10px);
+        padding: 5px;  
+        }
+        .first {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        flex-wrap: wrap; 
+        }
+        .second {
+        display: flex;
+        flex-direction: row; 
+        justify-content: flex-end;
+        flex-wrap: wrap; 
+        }
+        .third {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-around;
+        flex-wrap: wrap; 
+        }
+        .fourth {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        flex-wrap: wrap; 
+        }
+        .fifth {
+        display: flex;
+        flex-direction: row; 
+        align-items: flex-start;
+        flex-wrap: wrap; 
+        }
+        .sixth {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+        flex-wrap: wrap-reverse; 
+        }
+        </style>
+    </body>
+</html>
